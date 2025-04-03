@@ -1,0 +1,45 @@
+
+ <div>
+  <app-navbar></app-navbar>
+
+
+<div class="contact-container">
+    <div class="contact-form">
+      <h2>Contact Us</h2>
+      <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+        <input type="text" placeholder="Your Name" name="name" [(ngModel)]="model.name" required>
+        <input type="email" placeholder="Your Email" name="email" [(ngModel)]="model.email" required>
+        <input type="text" placeholder="Problem" name="subject" [(ngModel)]="model.subject" required>
+        <textarea placeholder="Your Message" name="message" [(ngModel)]="model.message" required></textarea>
+        <div class="form-buttons">
+          <button type="submit" class="btn-submit" [disabled]="!contactForm.form.valid">Submit</button>
+          <button type="reset" class="btn-reset" (click)="onReset()">Reset</button>
+        </div>
+      </form>
+    </div>
+  
+
+    <div class="contact-info">
+        <div class="getintouch">
+            <h3>Get in Touch</h3>
+            <p><strong>Address:</strong> 123 Tech Lane, Innovation City, TX</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> <a href="mailto:support@techfix.com">support&#64;techfix.com</a></p>
+        </div>
+     
+      <div class="map-container">
+        <img src="/assets/Map.png" alt="Map" class="map-image">
+      </div>
+    </div>
+  </div>
+  
+
+  <footer class="bg-dark text-white py-4">
+    <div class="footer-links">
+      <a href="#">About Us</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+    </div>
+  </footer>
+  
+</div>

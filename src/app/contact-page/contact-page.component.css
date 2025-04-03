@@ -1,0 +1,131 @@
+/* contact-page.component.css */
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: 20px;
+  }
+  
+  .contact-form {
+    width: 52%;
+    background-color: #f0f1ff;
+    padding: 30px;
+    height: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: -8px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contact-form .form-buttons {
+    display: flex;
+    gap: 21px;
+  }
+  
+  .contact-form .btn-submit,
+  .contact-form .btn-reset {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form .btn-submit {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .contact-form .btn-reset {
+    background-color: #212629;
+    color: white;
+  }
+  
+  .contact-info {
+    width: 45%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info h3 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .contact-info .map-container {
+    margin-top: 20px;
+  }
+  
+  .contact-info .map-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+  }
+  
+  footer .footer-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  footer .footer-links a:hover {
+    color: #007bff;
+  }
+
+  
+
+  .getintouch {
+    background-color: #d0d3f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: -7px 9px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .getintouch h3 {
+    margin-bottom: 15px;
+  }
+  
+  .getintouch p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .getintouch a {
+    color: #007bff; /* Optional: Make the email link blue */
+    text-decoration: none;
+  }
+  
+  .getintouch a:hover {
+    text-decoration: underline; /* Optional: Underline the email link on hover */
+  }
+  
